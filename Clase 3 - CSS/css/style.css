@@ -1,0 +1,46 @@
+    body {
+        background: yellow;
+        color: purple;
+        padding-left: 15em;
+    }
+    
+    h1 {
+        color: black;
+        font-family: 'Hurricane', cursive;
+    }
+    
+    p {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .urgente {
+        color: red;
+        font-size: 20px;
+    }
+    
+    ul.navbar {
+        position: absolute;
+        left: 1em;
+        top: 4em;
+    }
+    
+    ul.navbar li {
+        background: white;
+        margin: 0.5em 0;
+        padding: 0.3em 1em;
+        border-right: 1em solid green;
+    }
+    
+    a:link {
+        color: chocolate;
+    }
+    
+    a:visited {
+        color: deeppink;
+    }
+    
+    address {
+        margin-top: 1em;
+        padding-top: 1em;
+        border-top: thin dotted;
+    }

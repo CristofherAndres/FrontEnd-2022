@@ -1,0 +1,49 @@
+:root {
+    --primary: #6209DB;
+    --dark: #000000;
+    --light: #fff;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--dark);
+}
+
+.navbar {
+    min-height: 90px;
+}
+
+.navbar .btn {
+    padding: .625rem 1.25rem !important;
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-light {
+    background-color: var(--light);
+    color: var(--primary);
+}
+
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+.btn {
+    padding: 1rem;
+}
+
+.content {
+    max-width: 500px;
+}
